@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin-top: 50px;
+  max-width: 368px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 16px;
+}
+
+.image {
+}
+
+.category {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.cardTitle {
+  margin-bottom: 6px;
+}
+
+.cardDesc {
+  margin-bottom: 20px;
+}
+
+.cardAuthor {
+}
