@@ -7,17 +7,18 @@ const Home = () => {
       {/* Card */}
       <div className={styles.card}>
         {/* Item Image */}
-        <div className={styles.image}>
-          <Image
-            src="/minimal-blog-card/cactus_img.jpg"
-            alt="Cactus image"
-            width={336}
-            height={152}
-          ></Image>
-        </div>
+
+        <Image
+          src="/minimal-blog-card/cactus_img.jpg"
+          alt="Cactus image"
+          width={336}
+          height={152}
+          className={styles.image}
+        />
+
         {/* Item Category */}
         <div className={styles.category}>
-          <button>Design</button>
+          <span className={styles.buttonCategory}>Design</span>
         </div>
 
         {/* Item Title */}
@@ -34,9 +35,13 @@ const Home = () => {
         </div>
 
         {/* Author */}
-        <div className={styles.cardAuthor}>
+
+        {/* <div className={styles.cardAuthor}>
           <p>Annie Spratt</p>
-        </div>
+        </div> */}
+      </div>
+      <div className={styles.cardAuthor}>
+        <p>Annie Spratt</p>
       </div>
     </div>
   );
