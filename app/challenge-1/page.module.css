@@ -1,0 +1,43 @@
+.mainContent {
+  justify-content: center;
+  display: flex;
+  height: 100vh;
+  color: #fef7ee;
+}
+
+.content {
+  max-width: 1280px;
+  background-color: #111315;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.contentProduct {
+  margin: -100px;
+  border-radius: 1rem;
+  width: 960px;
+  padding: 30px;
+
+  background-color: #1b1d1f;
+}
+
+.contentText {
+  /* width: 360px; */
+  -moz-text-align-last: center; /* For Firefox prior 58.0 */
+  text-align-last: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subtitle {
+  width: 500px;
+}
