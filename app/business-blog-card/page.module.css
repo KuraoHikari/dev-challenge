@@ -1,0 +1,72 @@
+.page {
+ box-sizing: border-box;
+ font-family: "Lato", sans-serif;
+ background-color: #f2f5f9;
+ margin: 0;
+ justify-content: center;
+ display: flex;
+ height: 100vh;
+}
+
+.card {
+ max-width: 450px;
+ max-height: 600px;
+
+ border-radius: 15px;
+ background-color: #fff;
+}
+
+.cardBody {
+}
+
+.cardText {
+ padding: 16px;
+}
+
+.cardText h1 {
+ padding-inline: 43px;
+ font-size: 1.5rem;
+ font-weight: 600;
+ color: #111729;
+ margin-bottom: 1rem;
+}
+
+.cardText p {
+ padding-inline: 43px;
+ line-height: 1.4;
+ font-size: 1rem;
+ font-weight: 400;
+ color: #677489;
+}
+
+.cardHeroImage {
+ position: relative;
+ height: 302px;
+}
+
+.cardImage {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ position: absolute;
+ border-radius: 15px 15px 0 0;
+}
+
+.cardImageSVG {
+ position: absolute;
+ bottom: 0;
+ margin-bottom: -5px;
+}
+
+.cardFooter {
+ border-radius: 0 0 15px 15px;
+}
+
+.cardFooterAuthor {
+}
+
+.cardFooterAuthor h2 {
+}
+
+.cardFooterAuthor p {
+}
