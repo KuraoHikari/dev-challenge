@@ -1,72 +1,90 @@
 .page {
- box-sizing: border-box;
- font-family: "Lato", sans-serif;
- background-color: #f2f5f9;
- margin: 0;
- justify-content: center;
- display: flex;
- height: 100vh;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background-color: #f2f5f9;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+  height: 100vh;
 }
 
 .card {
- max-width: 450px;
- max-height: 600px;
+  max-width: 450px;
+  max-height: 540px;
 
- border-radius: 15px;
- background-color: #fff;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .cardBody {
+  padding-bottom: 10px;
 }
 
 .cardText {
- padding: 16px;
+  padding: 16px;
 }
 
 .cardText h1 {
- padding-inline: 43px;
- font-size: 1.5rem;
- font-weight: 600;
- color: #111729;
- margin-bottom: 1rem;
+  padding-inline: 43px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111729;
+  margin-bottom: 1rem;
 }
 
 .cardText p {
- padding-inline: 43px;
- line-height: 1.4;
- font-size: 1rem;
- font-weight: 400;
- color: #677489;
+  padding-inline: 43px;
+  line-height: 1.4;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #677489;
 }
 
 .cardHeroImage {
- position: relative;
- height: 302px;
+  position: relative;
+  height: 302px;
 }
 
 .cardImage {
- width: 100%;
- height: 100%;
- object-fit: cover;
- position: absolute;
- border-radius: 15px 15px 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 15px 15px 0 0;
 }
 
 .cardImageSVG {
- position: absolute;
- bottom: 0;
- margin-bottom: -5px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: -5px;
 }
 
 .cardFooter {
- border-radius: 0 0 15px 15px;
+  border-top: 2px solid #f2f5f9;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  padding-inline: 59px;
+  gap: 1rem;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.cardFooterAuthorImage {
+  border: 4px solid #f2f5f9;
+  border-radius: 50%;
 }
 
 .cardFooterAuthor {
 }
 
 .cardFooterAuthor h2 {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .cardFooterAuthor p {
+  margin-top: 2px;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: #677489;
 }
