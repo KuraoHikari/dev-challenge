@@ -2,66 +2,124 @@
 @import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap");
 
 .page {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: "Sora", sans-serif;
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: "Sora", sans-serif;
+ display: flex;
+ min-height: 100vh;
+ justify-content: center;
+ align-items: center;
 }
 
 .container {
-  max-width: 1280px;
-  padding: 6rem 24px 18rem;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  padding: 5rem 5rem;
-  background-color: #fafaf9;
+ max-width: 1280px;
+ padding: 6rem 24px 18rem;
+ display: flex;
+ align-items: center;
+ gap: 32px;
+ padding: 5rem 5rem;
+ background-color: #fafaf9;
 }
 
 .reviewers {
-  width: 50%;
+ width: 50%;
 }
 
 .reviewers h1 {
-  font-size: 2.25rem;
-  font-weight: 600;
+ font-size: 2.25rem;
+ font-weight: 600;
+ margin: 1rem 0;
 }
 
 .reviewers p {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #52525a;
+ line-height: 2rem;
+ font-size: 1.25rem;
+ font-weight: 400;
+ color: #52525a;
+ margin: 1rem 0;
 }
 
 .reviewList {
-  color: #52525a;
+ color: #52525a;
+ margin: 1rem 0;
 }
 
 .reviewList ul li {
-  list-style: none;
-  background: url("/testimonial-page/Done_ring_round_fill.svg") no-repeat left
-    top;
-
-  padding-left: 2rem;
-  padding-top: 3px;
+ list-style: none;
+ background: url("/testimonial-page/Done_ring_round_fill.svg") no-repeat left top;
+ margin: 1rem 0;
+ padding-left: 2rem;
+ padding-top: 3px;
 }
 
 .reviewLogo {
-  background-color: #f5c044;
-  text-align: center;
-  padding-top: 0.5rem;
-  width: 3rem;
-  height: 3rem;
-  font-size: 1.5rem;
-  border-radius: 50%;
+ background-color: #f5c044;
+ text-align: center;
+ padding-top: 0.5rem;
+ width: 3rem;
+ height: 3rem;
+ font-size: 1.5rem;
+ border-radius: 50%;
+}
+
+.cardRating {
+ margin-left: 1rem;
+}
+
+.testiMonialCard {
+ width: 50%;
+}
+
+.card {
+ width: 350px;
+ padding: 28px 36px;
+ background-color: #ffffff;
+ align-items: center;
+ margin-top: 60px;
+ border-radius: 1rem;
+}
+
+.cardLeft {
+ display: flex;
+ justify-content: start;
+}
+
+.cardRight {
+ display: flex;
+ justify-content: end;
+}
+
+.cardHeader {
+ display: flex;
+}
+
+.cardBody {
+ font-size: 1rem;
+}
+
+.cardBody h4 {
+ margin: 10px 0;
+}
+
+.cardBody p {
+ line-height: 1.5rem;
+ color: #52525a;
 }
 
 @media only screen and (max-width: 640px) {
-  .page {
-    background-color: rgb(0, 0, 0);
-  }
+ .container {
+  max-width: 640px;
+  padding: 6rem 24px 18rem;
+  display: block;
+
+  padding: 5rem 5rem;
+  background-color: #fafaf9;
+ }
+ .reviewers {
+  width: 100%;
+ }
+ .testiMonialCard {
+  width: 100%;
+ }
 }
